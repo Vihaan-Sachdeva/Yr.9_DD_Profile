@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh; 
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.card {
+  background-color: #ffffff;
+  width: 400px;
+  padding: 40px;
+  border-radius: 20px; 
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2); 
+  text-align: center; 
+}
+
+h1 {
+  color: #2d3748;
+  margin-top: 15px;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; 
+  border-radius: 50%; 
+  border: 5px solid #4facfe; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+  transition: transform 0.3s ease; 
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+p {
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.favorites-list {
+  text-align: left; 
+  background-color: #f0f9ff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style-type: square; 
+  color: #00f2fe; 
+  padding-left: 20px;
+}
+
+li span {
+  color: #2d3748; 
+  font-weight: 500;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4facfe;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none; 
+  border-radius: 30px; 
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #00c6fb; 
+}
